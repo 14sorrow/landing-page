@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section1 p, h1, h2, h3, h4 a {
+    color: #f9faf8;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.section1{
+    background-color: #1f2937;
+    padding: 0px 300px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    padding-top: 15px;
+}
+.header p{
+    font-size: 24px;
+}
+.header_menu{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.header_menu a{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.section1_content_wrapper{
+    display: flex;
+    padding-bottom: 150px;
+}
+.left_side{
+    flex: 1;
+}
+.left_side h1{
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: 900;
+}
+.section1 .left_side p{
+    margin-bottom: 10px;
+    max-width: 350px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.sign_up_btn{
+    background-color: #3882f6;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+}
+.right_side{
+    flex: 1;
+    height: 200px;
+    width: 400px;
+    background-color: grey;
+}
+
+
+
+/* section 2 */
+.section2{
+    padding: 0px 300px 100px 300px;
+    background-color: #f9faf8;
+}
+.section2 h2{
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 30px;
+
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.section2 .cardholder{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section2 .cardholder .card .image{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 15px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    background-color: white;
+}
+.section2 .cardholder .card p{
+    max-width: 200px;
+    text-align: center;
+}
+
+
+/* section 3 */
+.section3{
+    padding: 100px 300px;
+    background-color: #e5e7eb;
+}
+.section3 .quote{
+    font: 36px light italic;
+    color: #1f2937;
+    margin-bottom: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section3_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.section3_wrapper .signature{
+    align-self: flex-end;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+
+/* section 4 */
+.section4{
+    padding: 100px 300px;
+    background-color: #f9faf8;
+}
+.section4_wrapper{
+    padding: 50px 100px;
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 10px;
+}
+.section4 h5{
+    color: white;
+    font-weight: 800;
+    font-size: 24px;
+}
+.section4 .sign_up_btn{
+    border: 2px solid white;
+}
+.section4_wrapper .btn_wrapp{
+    align-self: center;
+}
+.section4 .left_side{
+    flex-grow: 1;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+
+/* footer */
+footer{
+    padding: 25px 0;
+    background-color: #1f2937;
+}
+footer p{
+    text-align: center;
+    color:  white;
+}
